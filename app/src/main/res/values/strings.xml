@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">random_image</string>
+    <string name="pattern_mvc">MVC</string>
+    <string name="pattern_mvp">MVP</string>
+    <string name="pattern_mvvm">MVVM</string>
+    <string name="pattern_mvi">MVI</string>
+    <string name="text_loadImage">Load 0 images...</string>
+    <string name="button_loadImage">이미지 불러오기</string>
 </resources>

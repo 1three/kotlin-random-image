@@ -2,6 +2,7 @@ package fastcampus.part3.random_image
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import fastcampus.part3.random_image.databinding.ActivityMainBinding
 
 /**
  * 랜덤 이미지 추출 앱
@@ -15,8 +16,18 @@ import android.os.Bundle
  * */
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater).also {
+            setContentView(it.root)
+            it.view = this
+        }
     }
+
+    fun openMvc() {}
+    fun openMvp() {}
+    fun openMvvm() {}
+    fun openMvi() {}
 }
