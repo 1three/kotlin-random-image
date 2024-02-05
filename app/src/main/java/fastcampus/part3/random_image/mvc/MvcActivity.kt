@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import coil.load
 import fastcampus.part3.random_image.databinding.ActivityMvcBinding
+import fastcampus.part3.random_image.mvc.provider.ImageProvider
 
 /**
  * MVC

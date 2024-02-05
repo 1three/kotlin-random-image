@@ -1,4 +1,4 @@
-package fastcampus.part3.random_image.mvc
+package fastcampus.part3.random_image.mvc.provider
 
 import fastcampus.part3.random_image.ImageResponse
 import fastcampus.part3.random_image.RetrofitManager
