@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Random_image"
         tools:targetApi="31">
         <activity
+            android:name=".mvi.MviActivity"
+            android:exported="false" />
+        <activity
             android:name=".mvvm.MvvmActivity"
             android:exported="false" />
         <activity

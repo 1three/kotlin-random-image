@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import fastcampus.part3.random_image.databinding.ActivityMainBinding
 import fastcampus.part3.random_image.mvc.MvcActivity
+import fastcampus.part3.random_image.mvi.MviActivity
 import fastcampus.part3.random_image.mvp.MvpActivity
 import fastcampus.part3.random_image.mvvm.MvvmActivity
 
@@ -42,5 +43,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, MvvmActivity::class.java))
     }
 
-    fun openMvi() {}
+    fun openMvi() {
+        startActivity(Intent(this, MviActivity::class.java))
+    }
 }

@@ -13,4 +13,8 @@ interface ImageService {
     @Headers("Authorization: Client-ID 3OOUfvNPqjIr7AdNAXqDV0X1b-0U8mDF9GMNPx60V9g")
     @GET("/photos/random")
     fun getRandomImageRx(): Single<ImageResponse>
+
+    @Headers("Authorization: Client-ID 3OOUfvNPqjIr7AdNAXqDV0X1b-0U8mDF9GMNPx60V9g")
+    @GET("/photos/random")
+    suspend fun getRandomImageSuspend(): ImageResponse
 }
