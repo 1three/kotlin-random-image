@@ -1,8 +1,10 @@
 package fastcampus.part3.random_image
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import fastcampus.part3.random_image.databinding.ActivityMainBinding
+import fastcampus.part3.random_image.mvc.MvcActivity
 
 /**
  * 랜덤 이미지 추출 앱
@@ -26,7 +28,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun openMvc() {}
+    fun openMvc() {
+        startActivity(Intent(this, MvcActivity::class.java))
+    }
+
     fun openMvp() {}
     fun openMvvm() {}
     fun openMvi() {}

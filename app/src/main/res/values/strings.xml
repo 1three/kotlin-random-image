@@ -4,6 +4,7 @@
     <string name="pattern_mvp">MVP</string>
     <string name="pattern_mvvm">MVVM</string>
     <string name="pattern_mvi">MVI</string>
-    <string name="text_loadImage">Load 0 images...</string>
+    <string name="text_loadImage">Load 0 images…</string>
     <string name="button_loadImage">이미지 불러오기</string>
+    <string name="text_clickButton">아래의 버튼을 클릭하세요.</string>
 </resources>
